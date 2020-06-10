@@ -165,7 +165,7 @@ html{
     height: 10rem;
 }
 .slogan__content{
-    padding: 0 1.5rem;
+    padding: 0 2rem;
     position: relative;
     margin: 0 auto;
     width: 70%;
@@ -182,10 +182,12 @@ html{
    line-height: 2rem;
 }
 .slogan__content-text h4{
+    color: #25221e;
     margin: .8rem 0;
     font-size: 2.4rem;
 }
 .slogan__content-text p{
+    color: var(--grey-text);
     font-size: 1.8rem;
     margin-top: .8rem;
 }
