@@ -1,0 +1,225 @@
+/* base */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
+}
+.clearfix::after{
+    content: "";
+    display: "table";
+    clear: both;
+}
+/* var */
+:root{
+/* var colors */
+--blue-header:#0D325A;
+--green-buttons:#7FB802;
+--green-card-text:#A2CF4D;
+--color-white:#fff;
+--slogan-bg:#d3d3d3;
+--grey-text:#b4b4b4;
+}
+/* header */
+.header__navbar__navigation__list-items a{
+    text-decoration: none;
+    color: var(--color-white);
+    text-transform: uppercase;
+    
+}
+.header__navrbar__buttons-btn a{
+  color: var(--color-white);
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-left: 2rem;
+  padding: .5rem;
+}
+.header__navrbar__buttons-btn-blue{
+    border: .5px solid lightblue;
+    border-radius: .3rem;
+}
+.header__navrbar__buttons-btn-green{
+    border: .5px solid var(--green-buttons);
+    background-color: var(--green-buttons);
+    border-radius: .3rem;
+}
+.header__navrbar__buttons-btn a{
+    color: var(--color-white);
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 2rem;
+}
+.header__navbar__navigation__list-items a:hover{
+    color: yellow;
+}
+.container__fullwidth-header{
+    background-color: var(--blue-header);
+    height: 50vh;
+    width: 100%;
+}
+.header__navbar{
+    width: 40%;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    height: 7rem;
+    width: 70%;
+    background-color: var(--blue-header);
+    font-size: 1.1rem;
+    
+}
+.header__navrbar__buttons{
+    width: 40%;
+    text-align: center;
+    padding: 0 1.5rem;
+}
+.header__navrbar__buttons-text{
+    color: var(--color-white);
+    text-transform: uppercase;
+}
+.header__navbar__navigation{
+    color: var(--color-white);
+    text-transform: uppercase;
+}
+.header__banner{
+    margin: 0 auto;
+    height: calc(100% - 7rem);
+    width: 70%;
+    background-color: var(--blue-header);
+}
+.header__banner-text{
+    text-transform: uppercase;
+    color: var(--color-white);
+    padding:0 0 0  6rem;
+}
+/* header logo */
+.header__navrbar-logo{
+    padding-left: 3rem;
+    float: left;
+    line-height: 7rem;
+}
+.header__navrbar-logo img{
+    width: 50%;
+    height: 3rem;
+    vertical-align: middle;
+    
+}
+/* header navigation */
+.header__navbar__navigation__list-items{
+    list-style: none;
+    display: inline-block;
+    line-height: 7rem;
+}
+.header__navbar__navigation{
+    padding: 0 1.5rem;
+    float: left;
+}
+/* navigation btn*/
+.header__navrbar__buttons{
+    float: left;
+    line-height: 7rem;
+    padding: 0 1.5rem;
+
+}
+.header__navrbar__buttons-btn{
+    display: inline-block;
+    
+}
+.header__navrbar__buttons-text{
+    display: inline-block;
+}
+.header__banner{
+    position: relative;
+}
+.header__banner-text{
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-color: var(--blue-header);
+    font-size: 3rem;
+}
+.header__banner-img{
+    position: absolute;
+    left: 21%;
+    top: 0;
+    float: left;
+    width: 100%;
+    height: 100%;
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(http://web.archive.org/web/20200610102604im_/https://www.fluentify.com/bundles/fluentifypublic/images/r4b/01/oldman.png);
+}
+/* banner */
+.container__fullwidth-slogan{
+    background-color: var(--slogan-bg);
+    height: 10rem;
+}
+.slogan__content{
+    padding: 0 1.5rem;
+    position: relative;
+    margin: 0 auto;
+    width: 70%;
+    height: 10rem;
+    background-color:var(--slogan-bg);
+    text-align: center;
+    
+}
+.slogan__content-text{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   line-height: 2rem;
+}
+.slogan__content-text h4{
+    margin: .8rem 0;
+    font-size: 2.4rem;
+}
+.slogan__content-text p{
+    font-size: 1.8rem;
+    margin-top: .8rem;
+}
+
+/* main-content & cards */
+.container__fullwidth-cards{
+    background-color: var(--color-white);
+    height: 10rem;
+    
+}
+.cards__content{
+    padding: 2rem 6rem;
+    margin: 0 auto;
+    width: 70%;
+    background-color: var(--color-white);
+}
+.cards__content-illustration img{
+    height: 12rem;
+    
+}
+.card__content-box{
+    width: 33.3333%;
+    float: left;
+    text-align: center;
+    padding: 2rem;
+    
+}
+.card__content-box p{
+    margin-top: 1.5rem;
+}
+.card__content-box h6{
+    margin-top: 2.3rem;
+    font-size: 2rem;
+}
+.cards__content-description{
+    height: 2rem;
+}
+hr{
+    
+    margin: 0 auto;
+    width: 10%;
+}
+
