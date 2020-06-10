@@ -55,6 +55,9 @@ html{
     border-radius: .3rem;
     padding: 1rem;
 }
+.header__head__buttons-btn-green-box{
+    margin-top: 3rem;
+}
 .header__navrbar__buttons-btn a{
     color: var(--color-white);
     text-decoration: none;
