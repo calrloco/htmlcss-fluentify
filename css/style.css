@@ -52,6 +52,9 @@ html{
     text-transform: uppercase;
     margin-left: 2rem;
 }
+.header__navbar__navigation__list-items{
+    padding-left: 1.1rem;
+}
 .header__navbar__navigation__list-items a:hover{
     color: yellow;
 }
@@ -74,13 +77,16 @@ html{
 .header__navrbar__buttons{
     width: 40%;
     text-align: center;
-    padding: 0 1.5rem;
+    position: relative;
+    
+   
 }
 .header__navrbar__buttons-text{
     color: var(--color-white);
     text-transform: uppercase;
 }
 .header__navbar__navigation{
+    margin-left: 10rem;
     color: var(--color-white);
     text-transform: uppercase;
 }
@@ -119,7 +125,7 @@ html{
 }
 /* navigation btn*/
 .header__navrbar__buttons{
-    float: left;
+    float: right;
     line-height: 7rem;
     padding: 0 1.5rem;
 
@@ -211,15 +217,17 @@ html{
     margin-top: 1.5rem;
 }
 .card__content-box h6{
+    color: var(--green-card-text);
     margin-top: 2.3rem;
     font-size: 2rem;
 }
 .cards__content-description{
+    color: var(--grey-text);
     height: 2rem;
 }
 hr{
     
-    margin: 0 auto;
+    margin: 3rem auto;
     width: 10%;
 }
 
