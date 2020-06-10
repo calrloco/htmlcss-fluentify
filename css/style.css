@@ -215,6 +215,7 @@ html{
 }
 .card__content-box p{
     margin-top: 1.5rem;
+    font-size: 1.6rem;
 }
 .card__content-box h6{
     color: var(--green-card-text);
