@@ -46,6 +46,15 @@ html{
     background-color: var(--green-buttons);
     border-radius: .3rem;
 }
+
+.header__head__buttons-btn-green{
+    color: var(--color-white);
+    text-decoration: none;
+    border: .5px solid var(--green-buttons);
+    background-color: var(--green-buttons);
+    border-radius: .3rem;
+    padding: 1rem;
+}
 .header__navrbar__buttons-btn a{
     color: var(--color-white);
     text-decoration: none;
@@ -100,6 +109,7 @@ html{
     text-transform: uppercase;
     color: var(--color-white);
     padding:0 0 0  6rem;
+    margin-top: 7rem;
 }
 /* header logo */
 .header__navrbar-logo{
